@@ -34,8 +34,8 @@ github_username: apsommer
 # baseurl: /docs/ 
 
 # Build settings
-# theme: minima
-theme: jekyll-theme-clean-blog
+theme: minima
+# theme: jekyll-theme-clean-blog
 
 # Exclude from processing.
 # The following items will not be processed, by default.
