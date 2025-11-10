@@ -31,7 +31,7 @@ github_username: apsommer
 
 # domain: sommerengineering.com
 # url: https://sommerengineering.com
-# baseurl: /docs/
+# baseurl: /docs/ 
 
 # Build settings
 # theme: minima
