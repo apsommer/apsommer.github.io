@@ -35,9 +35,9 @@ github_username: apsommer
 
 # Build settings
 # theme: minima
-# plugins:
-#   - jekyll-feed
 theme: jekyll-theme-clean-blog
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
