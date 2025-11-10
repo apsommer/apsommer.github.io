@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-description: This is the page description.
+title: Title ...
+description: This is the page description ...
 ---
 
 
