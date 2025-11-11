@@ -1,7 +1,11 @@
 title: Sommer Engineering
+author: Drew Sommer
 email: drew@sommerengineering.com
+
+# homepage blurb
 description: >-
   My latest product BarAudio provides audible realtime alerts for the financial markets. My recent project with Electrify America is a green initiative that simplifies the charging of electric vehicles. I love collaborating on teams and have experience mentoring others.
+
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sommerengineering.com" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: apsommer
@@ -12,11 +16,3 @@ github_username: apsommer
 # theme: jekyll-theme-clean-blog
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 
-# layouts
-defaults:
- -
-   scope:
-     path: "posts" # empty string means all files
-   values:
-     layout: "post"
-     author: "John Doe"
