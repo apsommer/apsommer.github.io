@@ -1,8 +1,6 @@
 ---
 layout: home
-
-background: '/assets/logo.png'
-
+background: '/assets/background_v2_cropped.jpg'
 ---
 
 
