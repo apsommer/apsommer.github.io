@@ -2,10 +2,10 @@
 layout: page
 title: baraud.io
 description: BarAudio is an Android app available on the Play Store
-permalink: /baraud.io/
 background: '/assets/background_v2_cropped.jpg'
 ---
 
+![image](../assets/logo.png "title")
 
 ### Overview
 
