@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Title ...
-description: This is the page description ...
+title: baraud.io
+description: BarAudio is available on the Play Store.
+permalink: /baraud.io/
 ---
 
-
-# BarAudio
 
 ### Overview
 
