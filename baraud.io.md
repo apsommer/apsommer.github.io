@@ -1,11 +1,13 @@
 ---
 layout: page
-title: baraud.io
-description: BarAudio is an Android app available on the Play Store
+title: 
+  baraud.io
+
+# description: BarAudio is an Android app available on the Play Store
 background: '/assets/background_v2_cropped.jpg'
 ---
 
-![image](../assets/logo.png "title")
+<!-- ![image](../assets/logo.png "title") -->
 
 ### Overview
 
