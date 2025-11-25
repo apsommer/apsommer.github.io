@@ -3,13 +3,10 @@ layout: page
 title: baraud.io
 # description: BarAudio is an Android app available on the Play Store
 background: '/assets/background_v2_cropped.jpg'
+width: 300
 ---
 
-<!-- ![image](../assets/logo.png "title") -->
-
-<span style="background-color: blue;">This text is blue.</span>
-
-### Overview
+<img style="display: block; margin: auto;" src="/assets/logo_banner.png"/>
 
 [BarAudio](https://baraud.io/) is an Android app available on the [Play Store](https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio) as a monthly subscription. It's written in Kotlin with MVVM architecture using Compose, Firebase, and Google Cloud Functions on the backend. The app provides audible realtime alerts for financial securities including stocks, futures, options, and crypto.
 
@@ -47,10 +44,10 @@ A free trial is offered for one week, then converts to a rolling subscription of
 
 ### User Experience
 <br/><br/>
-![](readme/1r.png)
+<img style="display: block; margin: auto;" src="/assets/1r.png" width={{ page.width }}/>
 <br/><br/>
-![](readme/2r.png)
+<img style="display: block; margin: auto;" src="/assets/2r.png" width={{ page.width }}/>
 <br/><br/>
-![](readme/3r.png)
+<img style="display: block; margin: auto;" src="/assets/3r.png" width={{ page.width }}/>
 <br/><br/>
-![](readme/4r.png)
+<img style="display: block; margin: auto;" src="/assets/4r.png" width={{ page.width }}/>
