@@ -1,3 +1,10 @@
+---
+layout: page
+title: BARAUD.IO
+#description: Privacy Policy
+background: '/assets/background_v2_cropped.jpg'
+---
+
 Privacy Policy
 ==============
 
