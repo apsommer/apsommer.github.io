@@ -23,38 +23,13 @@ layout: default
     </div>
   </header>
 
+<!--  <div class="container-fluid m-0 p-0" style="background-color:black;">-->
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
-        {{ content }}
-
-        <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
-
-        <article class="post-preview">
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-            {% else %}
-            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-            {% endif %}
-          </a>
-          <p class="post-meta">Posted by
-            {% if post.author %}
-            {{ post.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %}
-            on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
-          </p>
-        </article>
-
-        <hr>
-
-        {% endfor %}
+        <p><img style="float: right; margin-left: 24px; margin-bottom: 24px; margin-top: 6px;" src="assets/profile.jpg" width=300/>
+        I am <a href="https://www.linkedin.com/in/apsommer/">Drew Sommer</a> - an Android developer with a previous career in mechanical engineering. After specializing in machine dynamics for nearly a decade my passion for software engineering guided a career change. I believe in the democratization of the internet and creating mobile apps that are accessible to everyone. My latest product BarAudio provides audible realtime alerts for the financial markets. My recent project with Electrify America is a green initiative that simplifies the charging of electric vehicles. I love collaborating on teams and have experience mentoring others.</p>
 
       </div>
     </div>
