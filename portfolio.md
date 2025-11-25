@@ -3,7 +3,7 @@ layout: page
 title: Portfolio
 # description: ...
 background: '/assets/background_v2_cropped.jpg'
-width: 300
+width: 350
 ---
 
 <img style="float: left;" src="assets/ba_logo.png" width={{ page.width }}/>
@@ -14,7 +14,7 @@ The ecosystem of market exchanges, brokers, and third party platforms emits fina
 
 &nbsp;
 
-<img style="float: right; margin: 24px" src="https://cdn.brandfetch.io/idClWH3IhT/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1752028838753" width={{ page.width }}/>TBD ...
+<img style="float: right; margin: 24px" src="https://cdn.brandfetch.io/idClWH3IhT/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1752028838753" width=300/>TBD ...
 
 &nbsp;
 
