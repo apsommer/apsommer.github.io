@@ -6,9 +6,6 @@ background: '/assets/background_v2_cropped.jpg'
 width: 519
 ---
 
-<img style="display: block; margin: auto;" src="/assets/logo_banner.png"/>
-&nbsp;
-
 <img style="display: block; margin: auto;" src="/assets/1r.png" width={{ page.width }}/>
 
 <img style="display: block; margin: auto;" src="/assets/2r.png" width={{ page.width }}/>
