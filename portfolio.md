@@ -16,7 +16,7 @@ width: 350
 
 <img style="float: right; margin-left: 24px; margin-bottom: 24px; margin-top: 6px" src="https://cdn.brandfetch.io/idClWH3IhT/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1752028838753" width=300/>
 
-[TIAA](https://play.google.com/store/apps/details?id=com.mobile.tiaa.cref) is a mobile banking app for retirement, brokerage, and cash accounts using Kotlin, Java, and REST APIs. I led a team of 5 that designed server-driven ux flows with Coroutines, Flow, and AndroidX while upgrading legacy code. Data from Splunk, Dynatrace, and Firebase helped drive stability fixes and reduce crashes.
+[TIAA](https://www.tiaa.org/public/) is a mobile banking app for retirement, brokerage, and cash accounts using Kotlin, Java, and REST APIs. I led a team of 5 that designed server-driven ux flows with Coroutines, Flow, and AndroidX while upgrading legacy code. Data from Splunk, Dynatrace, and Firebase helped drive stability fixes and reduce crashes. Available on the [Play Store](https://play.google.com/store/apps/details?id=com.mobile.tiaa.cref) and [App Store](https://apps.apple.com/us/app/tiaa/id341447597).
 
 &nbsp;
 

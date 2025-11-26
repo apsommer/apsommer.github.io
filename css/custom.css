@@ -2,3 +2,8 @@ body {
   background: #010409 !important;
   color: #F7F3F0 !important;
 }
+
+a:link {
+	color: #183BE9;
+    text-decoration: underline;
+}
