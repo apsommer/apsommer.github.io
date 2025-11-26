@@ -2,7 +2,7 @@
 layout: page
 title: BARAUD.IO
 #description: Terms and Conditions
-background: '/assets/background_v2_cropped.jpg'
+background: '/assets/background.webp'
 ---
 
 Terms and Conditions
