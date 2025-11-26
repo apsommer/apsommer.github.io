@@ -1,6 +1,6 @@
 ---
 layout: page_no_header
-title: baraud.io
+title: Setup
 # description: BarAudio is an Android app available on the Play Store
 background: '/assets/background.webp'
 width: 519
@@ -14,38 +14,39 @@ width: 519
 
 &nbsp;
 
-[BarAudio](https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio) provides audible realtime notifications on worldwide financial products. Price, volume, and custom indicators are updated once per minute via short, audible alerts which can be configured for language, voice, speed, and pitch.
+<p style="text-align: center;">
+    BarAudio works with any webhook service. This video shows how to connect the webhook using a price alert in <a href="https://www.tradingview.com/">TradingView</a>.</p>
 
 &nbsp;
 
-<a href="https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio">
-    <img style="display: block; margin: auto;" src="/assets/play_store_button.png"/>
-</a>
+<p style="text-align: center;">
+    <video width="519" controls>
+        <source src="assets/setup.mp4" type="video/mp4">
+    </video>
+</p>
 
 &nbsp;
 
-<img style="display: block; margin: auto;" src="/assets/1r.png" width={{ page.width }}/>
+<p style="text-align: center;">
+    Placeholders configured in the alert message,
+</p>
 
 &nbsp;
 
-<img style="display: block; margin: auto;" src="/assets/divider.png" width={{ page.width }}/>
+<img style="display: block; margin: auto;" src="/assets/screenshot.png" width={{ page.width }}/>
 
 &nbsp;
 
-<img style="display: block; margin: auto;" src="/assets/2r.png" width={{ page.width }}/>
+<p style="text-align: center;">
+    or a simple script that triggers on bar close.
+</p>
 
 &nbsp;
 
-<img style="display: block; margin: auto;" src="/assets/divider.png" width={{ page.width }}/>
+<img style="display: block; margin: auto;" src="/assets/snippet.png" width=450/>
 
 &nbsp;
 
-<img style="display: block; margin: auto;" src="/assets/3r.png" width={{ page.width }}/>
-
-&nbsp;
-
-<img style="display: block; margin: auto;" src="/assets/divider.png" width={{ page.width }}/>
-
-&nbsp;
-
-<img style="display: block; margin: auto;" src="/assets/4r.png" width={{ page.width }}/>
+<p style="text-align: center;">
+    BarAudio works with <a href="https://trendspider.com/">TrendSpider</a>, <a href="https://www.metatrader5.com/en">MT5</a>, ...
+</p>
