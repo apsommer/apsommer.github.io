@@ -5,5 +5,9 @@ body {
 
 a:link {
 	color: #183BE9;
-    text-decoration: underline;
+    text-decoration: none;
+}
+a:visited {
+	color: #183BE9;
+	text-decoration: none;
 }
