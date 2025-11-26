@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio
 # description: ...
-background: '/assets/background_v2_cropped.jpg'
+background: '/assets/background.webp'
 width: 350
 ---
 
