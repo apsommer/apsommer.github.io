@@ -14,7 +14,9 @@ width: 519
 
 &nbsp;
 
-[BarAudio](https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio) provides audible realtime notifications on worldwide financial products. Price, volume, and custom indicators are updated once per minute via short, audible alerts which can be configured for language, voice, speed, and pitch.
+<p style="text-align: center;">
+<a href="https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio">BarAudio</a> provides audible realtime notifications on worldwide financial products. Price, volume, and custom indicators are updated once per minute via short, audible alerts which can be configured for language, voice, speed, and pitch.
+</p>
 
 &nbsp;
 
