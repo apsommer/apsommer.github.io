@@ -38,7 +38,7 @@ width: 519
 &nbsp;
 
 <p style="text-align: center;">
-    or trigger from a simple script on every bar close.
+    or trigger from a simple script on bar close.
 </p>
 
 &nbsp;
