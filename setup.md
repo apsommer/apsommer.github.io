@@ -15,7 +15,7 @@ width: 519
 &nbsp;
 
 <p style="text-align: center;">
-    BarAudio works with any webhook service. This video shows how to connect the webhook using a price alert in <a href="https://www.tradingview.com/">TradingView</a>.</p>
+    BarAudio works with any webhook service. This video shows how to connect through a price alert in <a href="https://www.tradingview.com/">TradingView</a>.</p>
 
 &nbsp;
 
@@ -28,7 +28,7 @@ width: 519
 &nbsp;
 
 <p style="text-align: center;">
-    Placeholders configured in the alert message,
+    Optional placeholders in the alert message,
 </p>
 
 &nbsp;
@@ -38,7 +38,7 @@ width: 519
 &nbsp;
 
 <p style="text-align: center;">
-    or a simple script that triggers on bar close.
+    or trigger from a simple script on bar close.
 </p>
 
 &nbsp;
