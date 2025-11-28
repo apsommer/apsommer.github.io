@@ -3,14 +3,13 @@ layout: page_no_header
 title: Setup
 # description: BarAudio is an Android app available on the Play Store
 background: '/assets/background.webp'
-width: 340
 ---
 
 &nbsp;
 
 &nbsp;
 
-<img style="display: block; margin: auto;" src="/assets/logo_banner.png" width={{ page.width }}/>
+<img style="display: block; margin: auto;" src="/assets/logo_banner.png" width="70%"/>
 
 &nbsp;
 
@@ -20,7 +19,7 @@ width: 340
 &nbsp;
 
 <p style="text-align: center;">
-    <video width="340" controls>
+    <video width="80%" controls>
         <source src="assets/setup.mp4" type="video/mp4">
     </video>
 </p>
@@ -33,7 +32,7 @@ width: 340
 
 &nbsp;
 
-<img style="display: block; margin: auto;" src="/assets/screenshot.png" width={{ page.width }}/>
+<img style="display: block; margin: auto;" src="/assets/screenshot.png" width="80%"/>
 
 &nbsp;
 
@@ -43,7 +42,7 @@ width: 340
 
 &nbsp;
 
-<img style="display: block; margin: auto;" src="/assets/snippet.png" width={{ page.width }}/>
+<img style="display: block; margin: auto;" src="/assets/snippet.png" width="80%"/>
 
 &nbsp;
 
