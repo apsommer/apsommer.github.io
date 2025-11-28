@@ -6,7 +6,7 @@ background: '/assets/background.webp'
 width: 280
 ---
 
-<img style="float: left; margin-left: 36px; margin-right: 36px; margin-top: 67px; margin-bottom: 48px" src="assets/ba_logo_trimmed.png" width={{ page.width }}/>
+<img style="float: left; margin-left: 36px; margin-right: 36px; margin-top: 67px; margin-bottom: 48px" src="assets/ba_logo.png" width={{ page.width }}/>
 
 &nbsp;
 
