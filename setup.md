@@ -32,7 +32,7 @@ background: '/assets/background.webp'
 
 &nbsp;
 
-<img style="display: block; margin: auto;" src="/assets/screenshot.png" width="80%"/>
+<img style="display: block; margin: auto;" src="/assets/screenshot.png" width="60%"/>
 
 &nbsp;
 
@@ -42,7 +42,7 @@ background: '/assets/background.webp'
 
 &nbsp;
 
-<img style="display: block; margin: auto;" src="/assets/snippet.png" width="80%"/>
+<img style="display: block; margin: auto;" src="/assets/snippet.png" width="60%"/>
 
 &nbsp;
 
