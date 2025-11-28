@@ -3,10 +3,10 @@ layout: page
 title: Portfolio
 # description: ...
 background: '/assets/background.webp'
-width: 350
+width: 280
 ---
 
-<img style="float: left; margin-top: 12px; margin-bottom: -6px;" src="assets/ba_logo.png" width=360/>
+<img style="float: left; margin-left: 36px; margin-right: 36px; margin-top: 67px; margin-bottom: 48px" src="assets/ba_logo.png" width={{ page.width }}/>
 
 &nbsp;
 
@@ -14,11 +14,12 @@ width: 350
 
 &nbsp;
 
-<img style="float: right; margin-left: 32px; margin-right: 16px; margin-bottom: 20px; margin-top: 4px" src="assets/ea_white.png" width=360/>
+<img style="float: right; margin-left: 36px; margin-right: 36px; margin-top: 4px; margin-bottom: 48px" src="assets/ea_white.png" width={{ page.width }}/>
+
 [Electrify America](https://www.electrifyamerica.com/) is an Android app available on the [Play Store](https://play.google.com/store/apps/details?id=com.ea.evowner). It's written in Java with MVVM architecture and support for custom Google Maps, Near Field Communication (NFC), and WebSocket connections. The app enables users to find a nearby charging station, charge their vehicle, and manage the charging session at over 400+ locations.
 
 &nbsp;
 
-<img style="float: left; margin-left: 24px; margin-right: 36px; margin-bottom: 12px; margin-top: 20px" src="https://cdn.brandfetch.io/idClWH3IhT/theme/light/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1752028959723" width=360/>
+<img style="float: left; margin-left: 36px; margin-right: 36px; margin-top: 4px; margin-bottom: 36px" src="https://cdn.brandfetch.io/idClWH3IhT/theme/light/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1752028959723" width={{ page.width }}/>
 
 [TIAA](https://www.tiaa.org/public/) is a mobile banking app for retirement, brokerage, and cash accounts using Kotlin, Java, and REST APIs. It's emphasis on secure authentication is handled with modern Coroutines, Flow, and AndroidX. The legacy backend systems are managed with Splunk, Dynatrace, and Firebase. Available on the [Play Store](https://play.google.com/store/apps/details?id=com.mobile.tiaa.cref) and [App Store](https://apps.apple.com/us/app/tiaa/id341447597).

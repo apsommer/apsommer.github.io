@@ -3,7 +3,7 @@ layout: page_no_header
 title: baraud.io
 # description: BarAudio is an Android app available on the Play Store
 background: '/assets/background.webp'
-width: 360
+width: 340
 ---
 
 &nbsp;
@@ -21,7 +21,7 @@ width: 360
 &nbsp;
 
 <a href="https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio">
-    <img style="display: block; margin: auto;" src="/assets/play_store_button.png"/>
+    <img style="display: block; margin: auto;" src="/assets/play_store_button.png" width=210/>
 </a>
 
 &nbsp;
