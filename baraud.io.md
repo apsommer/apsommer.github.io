@@ -20,7 +20,7 @@ background: '/assets/background.webp'
 &nbsp;
 
 <a href="https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio">
-    <img style="display: block; margin: auto;" src="/assets/play_store_button.png" width="50%"/>
+    <img style="display: block; margin: auto;" src="/assets/play_store_button.png" width="30%"/>
 </a>
 
 &nbsp;
