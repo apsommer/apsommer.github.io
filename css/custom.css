@@ -4,18 +4,18 @@ body {
 }
 
 a:link {
-	color: #51EFBA;
+	color: #193BE9;
     text-decoration: none;
     font-weight: bold;
 }
 a:visited {
-	color: #51EFBA;
+	color: #193BE9;
 	text-decoration: none;
 	font-weight: bold;
 }
 
 img.mob-img {
-  width: 40%;
+  width: 50%;
   margin-left: 48px;
   margin-right: 36px;
   margin-top: 8px;

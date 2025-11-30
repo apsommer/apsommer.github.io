@@ -39,7 +39,7 @@ background: '/assets/background.webp'
 &nbsp;
 
 <p style="text-align: center;">
-    Optional placeholders in the alert message,
+    Use optional placeholders in the alert message,
 </p>
 
 &nbsp;
@@ -49,7 +49,7 @@ background: '/assets/background.webp'
 &nbsp;
 
 <p style="text-align: center;">
-    or trigger from a simple script on bar close.
+    or trigger from a script every bar close.
 </p>
 
 &nbsp;
