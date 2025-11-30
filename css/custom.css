@@ -22,19 +22,10 @@ img.mob-img {
   margin-bottom: 36px;
   float: right;
 }
-img.mob-img {
-  width: 40%;
-  margin-left: 48px;
-  margin-right: 36px;
-  margin-top: 8px;
-  margin-bottom: 36px;
-  float: right;
-}
 @media screen and (max-width: 700px) {
   img.mob-img {
-    width: 80%;
+    width: 100%;
     display: block;
-    margin-left: 42px;
-    margin-bottom: 60px;
+    margin: auto;
   }
 }
