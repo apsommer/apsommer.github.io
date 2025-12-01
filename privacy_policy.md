@@ -1,9 +1,13 @@
 ---
-layout: page
+layout: page_no_header
 title: BARAUD.IO
 #description: Privacy Policy
 background: '/assets/background.webp'
 ---
+
+&nbsp;
+
+&nbsp;
 
 Privacy Policy
 ==============
