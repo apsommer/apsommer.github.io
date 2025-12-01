@@ -59,7 +59,7 @@ background: '/assets/background.webp'
 &nbsp;
 
 <p style="text-align: center;">
-    BarAudio works with <a href="https://trendspider.com/">TrendSpider</a>, <a href="https://www.metatrader5.com/en">MT5</a>, ...
+    BarAudio is compatible with <a href="https://trendspider.com/">TrendSpider</a>, <a href="https://www.metatrader5.com/en">MT5</a>, ...
 </p>
 
 &nbsp;
