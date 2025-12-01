@@ -18,6 +18,6 @@ width: 280
 
 &nbsp;
 
-<img class="mob-img" src="https://cdn.brandfetch.io/idClWH3IhT/theme/light/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1752028959723" style="margin-bottom: 72px;"/>
+<img class="mob-img" src="assets/tiaa.png" style="margin-bottom: 48px;"/>
 
 [TIAA](https://www.tiaa.org/public/) is a mobile banking app for retirement, brokerage, and cash accounts using Kotlin, Java, and REST APIs. It's emphasis on secure authentication is handled with modern Coroutines, Flow, and AndroidX. The legacy backend systems are managed with Splunk, Dynatrace, and Firebase. Available on the [Play Store](https://play.google.com/store/apps/details?id=com.mobile.tiaa.cref) and [App Store](https://apps.apple.com/us/app/tiaa/id341447597).
