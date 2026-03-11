@@ -2793,9 +2793,9 @@ header.masthead {
   background-attachment: scroll;
   position: relative;
   background-size: cover;
-}
-header.masthead {
   transition: background-image 0.3s ease;
+  min-height: 420px;
+  will-change: background-image;
 }
 
 header.masthead .overlay { position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: #212529; opacity: 0.5; }
