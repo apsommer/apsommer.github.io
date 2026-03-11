@@ -2,16 +2,8 @@ title: Sommer Engineering
 author: Drew Sommer
 email: drew@sommerengineering.com
 
-# homepage blurb
-#description: >-
-#  I am Drew Sommer - an Android developer with a previous career in mechanical engineering.
-
-# baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sommerengineering.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sommerengineering.com"
 linkedin_username: apsommer
 github_username: apsommer
 
-# build settings
-# theme: minima
-# theme: jekyll-theme-clean-blog
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll

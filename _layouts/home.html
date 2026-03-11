@@ -5,18 +5,14 @@ layout: default
 <!-- Page Header -->
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-  {% else %}
-  <header class="masthead">
     {% endif %}
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.title }}</h1>
-            {% if site.description %}
-            <span class="subheading">{{ site.description }}</span>
-            {% endif %}
+            <h1>{{ page.title }}</h1>
+            <span class="subheading">{{ page.subtitle }}</span>
           </div>
         </div>
       </div>
@@ -27,9 +23,27 @@ layout: default
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
-        <p><img class="mob-img" src="assets/profile.png"/>
+        <h3>Current Project</h3>
 
-        I am <a href="https://www.linkedin.com/in/apsommer/">Drew Sommer</a> - an Android developer with a previous career in mechanical engineering. After specializing in machine dynamics for nearly a decade my passion for software engineering guided a career change. I believe in the democratization of the internet and creating mobile apps that are accessible to everyone. My latest product BarAudio provides audible realtime alerts for the financial markets. My recent project with Electrify America is a green initiative that simplifies the charging of electric vehicles. I love collaborating on teams and have experience mentoring others.</p>
+        <p>
+        <strong><a href="/baraud.io">BarAudio</a></strong> delivers real-time trading alerts through a voice-first Android application. TradingView webhooks trigger a Firebase backend that streams high-signal events to the mobile client, where alerts are spoken using a foreground service.
+        </p>
+
+        <p>
+        <a href="/baraud.io">View project details →</a>
+        </p>
+
+        <p>
+        <img class="mob-img" src="assets/profile.webp" loading="lazy"/>
+
+        I am Drew Sommer, an Android engineer focused on real-time mobile systems built with Kotlin, Jetpack Compose, and Firebase.
+
+        My primary project, BarAudio, delivers spoken trading alerts to mobile devices using TradingView webhooks, a Firebase backend, and a voice-first Android client.
+
+        Previously I contributed to the Electrify America Android application supporting EV charging infrastructure across North America.
+
+        Before software engineering I spent nearly a decade as a mechanical engineer specializing in machine dynamics and vibration analysis, a background that continues to influence how I approach systems design and debugging.
+        </p>
 
       </div>
     </div>
