@@ -29,3 +29,24 @@ img.mob-img {
     margin: auto;
   }
 }
+
+/* Homepage masthead */
+header.masthead {
+    height: 500px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+/* Interior page masthead */
+header.masthead.masthead-small {
+    height: 300px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+/* Remove theme vertical spacing that interferes */
+header.masthead .page-heading {
+    padding: 0;
+}
