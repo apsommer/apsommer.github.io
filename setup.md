@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_no_header
 title: baraudio
 # description: BarAudio is an Android app available on the Play Store
 background: '/assets/background.webp'
