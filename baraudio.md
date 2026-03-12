@@ -1,95 +1,101 @@
 ---
 layout: page
-title: baraudio
-# description: BarAudio is an Android app available on the Play Store
+title: BarAudio
 background: '/assets/background.webp'
 ---
 
-&nbsp;
+<div style="height:40px;"></div>
 
-&nbsp;
+<img style="display:block;margin:auto;" src="/assets/logo_banner.png" width="70%"/>
 
-<img style="display: block; margin: auto;" src="/assets/logo_banner.png" width="70%"/>
+<div style="height:30px;"></div>
 
-&nbsp;
-
-<p style="text-align: center;">
-<a href="https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio">BarAudio</a> provides audible realtime notifications on worldwide financial products. Price, volume, and custom indicators are updated once per minute via short, audible alerts which can be configured for language, voice, speed, and pitch.
+<p style="text-align:center;max-width:760px;margin:auto;">
+BarAudio is a voice-first Android application that delivers real-time trading signals as short spoken alerts.
+Instead of monitoring charts continuously, traders can hear market events as they occur.
 </p>
 
-&nbsp;
+<div style="height:30px;"></div>
 
+<p style="text-align:center;">
 <a href="https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio">
-    <img style="display: block; margin: auto;" src="/assets/play_store_button.png" width="192px"/>
+<img src="/assets/play_store_button.png" width="192px"/>
 </a>
-
-&nbsp;
-
-<p style="text-align: center;">
-    BarAudio works with any webhook service. This video shows how to connect through a price alert in <a href="https://www.tradingview.com/">TradingView</a>.</p>
-
-&nbsp;
-
-<p style="text-align: center;">
-    <video width="80%" controls>
-        <source src="assets/setup.mp4" type="video/mp4">
-    </video>
 </p>
 
-&nbsp;
+<div style="height:20px;"></div>
 
-<p style="text-align: center;">
-    Use optional placeholders in the alert message,
+<hr style="max-width:800px;margin:50px auto;">
+
+<h2 style="text-align:center;">Signal Delivery Architecture</h2>
+
+<p style="text-align:center;max-width:760px;margin:auto;">
+BarAudio operates as a real-time signal pipeline connecting trading platforms
+to a mobile audio interface.
 </p>
 
-&nbsp;
+<div style="height:30px;"></div>
 
-<img style="display: block; margin: auto;" src="/assets/screenshot.png" width="80%"/>
+<div style="text-align:center;">
+    <div style="display:inline-block;background:white;padding:25px;border-radius:6px;border:1px solid #e6e6e6;">
+        <img src="/assets/architecture.png"
+             style="max-width:520px;width:100%;">
+    </div>
+</div>
 
-&nbsp;
+<div style="height:40px;"></div>
 
-<p style="text-align: center;">
-    or trigger from a script every bar close.
+<p style="max-width:760px;margin:auto;">
+Signals originate from trading platforms such as TradingView and are delivered through a webhook backend to the Android client.
 </p>
 
-&nbsp;
+<div style="height:40px;"></div>
 
-<img style="display: block; margin: auto;" src="/assets/snippet.png" width="80%"/>
+## Signal Generation
 
-&nbsp;
-
-<p style="text-align: center;">
-    BarAudio is also compatible with <a href="https://trendspider.com/">TrendSpider</a>, <a href="https://www.metatrader5.com/en">MT5</a>, ...
+<p style="max-width:760px;margin:auto;">
+Trading strategies generate signals on each bar close using PineScript or other indicator engines.
+These systems trigger webhooks containing a short message describing the signal.
 </p>
 
-&nbsp;
+<div style="height:40px;"></div>
 
-<img style="display: block; margin: auto;" src="/assets/divider.png" width="90%"/>
+## Webhook Processing
 
-&nbsp;
+<p style="max-width:760px;margin:auto;">
+Incoming webhook requests are received by a lightweight Python service and validated before being written to Firebase Realtime Database.
+The backend acts as a distribution layer between signal generators and mobile clients.
+</p>
 
-<img style="display: block; margin: auto;" src="/assets/1r.png" width="90%"/>
+<div style="height:40px;"></div>
 
-&nbsp;
+## Android Client
 
-<img style="display: block; margin: auto;" src="/assets/divider.png" width="90%"/>
+<p style="max-width:760px;margin:auto;">
+The Android application is written in Kotlin using Jetpack Compose and a coroutine-based architecture.
+Signals are persisted locally using Room to ensure reliable ordering and recovery after offline periods.
+</p>
 
-&nbsp;
+<p style="max-width:760px;margin:auto;">
+Firebase Cloud Messaging delivers new events to the device, where they are inserted into the local database and processed by the application.
+</p>
 
-<img style="display: block; margin: auto;" src="/assets/2r.png" width="90%"/>
+<div style="height:40px;"></div>
 
-&nbsp;
+## Voice Delivery
 
-<img style="display: block; margin: auto;" src="/assets/divider.png" width="90%"/>
+<p style="max-width:760px;margin:auto;">
+When a new signal arrives, a foreground service activates the Android Text-to-Speech engine to generate a short spoken alert describing the event.
+</p>
 
-&nbsp;
+<p style="max-width:760px;margin:auto;">
+This voice-first design allows traders to monitor market activity without constantly watching charts.
+</p>
 
-<img style="display: block; margin: auto;" src="/assets/3r.png" width="90%"/>
+<div style="height:40px;"></div>
 
-&nbsp;
+<p style="text-align:center;">
+Webhook setup instructions are available in the <a href="/setup">Setup Guide</a>.
+</p>
 
-<img style="display: block; margin: auto;" src="/assets/divider.png" width="90%"/>
-
-&nbsp;
-
-<img style="display: block; margin: auto;" src="/assets/4r.png" width="90%"/>
+<div style="height:60px;"></div>
