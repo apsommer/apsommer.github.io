@@ -1,23 +1,111 @@
 ---
 layout: page
 title: Portfolio
-# description: ...
 background: '/assets/background.webp'
-width: 280
 ---
 
-<img class="mob-img" src="assets/ba_logo_white.png" style="margin-bottom: 48px;"/>
+<div style="height:40px;"></div>
 
-[BarAudio](https://www.baraud.io/) is an Android app available on the [Play Store](https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio) as a monthly subscription. It's written in Kotlin with MVVM architecture using Compose, Firebase, and Google Cloud Functions on the backend. The app provides audible realtime alerts for financial securities including stocks, futures, options, and crypto. The ecosystem of market exchanges, brokers, and third party platforms emits financial data in realtime. To be an effective trader, digital charts must be constantly monitored throughout the day. This causes eye strain and mental fatigue. Audio alerts from a mobile device provide an alternative source of information, allowing investors to step away from their screens with confidence.
+<table style="width:100%; border-collapse:collapse;">
 
-&nbsp;
+<tr>
+<td style="width:260px; vertical-align:middle; padding-right:28px;">
+<img src="/assets/ba_logo_white.png" style="width:220px;">
+</td>
 
-<img class="mob-img" src="assets/ea_white.png" style="float: left; margin-bottom: 48px;"/>
+<td style="vertical-align:top; border-left:1px solid rgba(255,255,255,0.10); padding-left:28px;">
 
-[Electrify America](https://www.electrifyamerica.com/) is an Android app available on the [Play Store](https://play.google.com/store/apps/details?id=com.ea.evowner). It's written in Java with MVVM architecture and support for custom Google Maps, Near Field Communication (NFC), and WebSocket connections. The app enables users to find a nearby charging station, charge their vehicle, and manage the charging session at over 400+ locations.
+<p>
+Android application delivering realtime spoken trading alerts for futures markets.
+</p>
 
-&nbsp;
+<p>
+Signals are generated externally and delivered through a low-latency webhook pipeline to a voice-first Android client built with Kotlin, Jetpack Compose, Firebase, and Google Cloud Functions.
+</p>
 
-<img class="mob-img" src="assets/tiaa.png" style="margin-bottom: 48px;"/>
+<p>
+<a href="/baraudio">Engineering Case Study →</a><br>
+<a href="https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio">Play Store →</a>
+</p>
 
-[TIAA](https://www.tiaa.org/public/) is a mobile banking app for retirement, brokerage, and cash accounts using Kotlin, Java, and REST APIs. It's emphasis on secure authentication is handled with modern Coroutines, Flow, and AndroidX. The legacy backend systems are managed with Splunk, Dynatrace, and Firebase. Available on the [Play Store](https://play.google.com/store/apps/details?id=com.mobile.tiaa.cref) and [App Store](https://apps.apple.com/us/app/tiaa/id341447597).
+</td>
+</tr>
+
+<tr><td colspan="2" style="height:60px;"></td></tr>
+
+<tr>
+<td style="width:260px; vertical-align:middle; padding-right:28px;">
+<img src="/assets/ea_white.png" style="width:220px;">
+</td>
+
+<td style="vertical-align:top; border-left:1px solid rgba(255,255,255,0.10); padding-left:28px;">
+
+<p>
+Android client for the Electrify America electric vehicle charging network.
+</p>
+
+<p>
+Development included charger discovery, charging session control, NFC integration, custom Google Maps rendering, and realtime charger communication via WebSockets.
+</p>
+
+<p>
+<a href="https://play.google.com/store/apps/details?id=com.ea.evowner">Play Store →</a>
+</p>
+
+</td>
+</tr>
+
+<tr><td colspan="2" style="height:60px;"></td></tr>
+
+<tr>
+<td style="width:260px; vertical-align:middle; padding-right:28px;">
+<img src="/assets/tiaa.png" style="width:220px;">
+</td>
+
+<td style="vertical-align:top; border-left:1px solid rgba(255,255,255,0.10); padding-left:28px;">
+
+<p>
+Mobile banking platform supporting retirement, brokerage, and cash accounts.
+</p>
+
+<p>
+Work focused on authentication, account services, and platform modernization using Kotlin, Coroutines, Flow, and AndroidX. Backend systems integrated with internal services monitored through Splunk, Dynatrace, and Firebase.
+</p>
+
+<p>
+<a href="https://play.google.com/store/apps/details?id=com.mobile.tiaa.cref">Play Store →</a><br>
+<a href="https://apps.apple.com/us/app/tiaa/id341447597">App Store →</a>
+</p>
+
+</td>
+</tr>
+
+<tr><td colspan="2" style="height:60px;"></td></tr>
+
+<tr>
+<td style="width:260px; vertical-align:middle; padding-right:28px;">
+<img src="/assets/solar_turbines.svg" style="width:220px;">
+</td>
+
+<td style="vertical-align:top; border-left:1px solid rgba(255,255,255,0.10); padding-left:28px;">
+
+<p>
+Mechanical design engineer developing rotating machinery for industrial gas turbines up to 16 MW. Work focused on rotor dynamics, vibration reduction, bearing systems, and predictive modeling of high-speed turbomachinery.
+</p>
+
+<p>
+Developed numerical rotor models reducing operational vibration by 0.9 mil, conducted finite element analysis of rotor dampers increasing system stability by 19%, and designed experimental magnetic bearing systems for advanced turbine programs.
+</p>
+
+<p>
+Additional work included MATLAB manufacturing optimization algorithms saving 140 production hours per week and assembly process improvements reducing testing costs by $1.5M across multiple engine programs.
+</p>
+
+<p>
+<a href="https://www.solarturbines.com/">Company Website →</a>
+</p>
+
+</td>
+</tr>
+
+</table>

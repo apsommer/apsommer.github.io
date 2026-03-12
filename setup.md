@@ -1,95 +1,53 @@
 ---
-layout: page_no_header
-title: baraudio
-# description: BarAudio is an Android app available on the Play Store
+layout: page
+title: Setup
 background: '/assets/background.webp'
 ---
 
-&nbsp;
+<div style="height:40px;"></div>
 
-&nbsp;
+BarAudio delivers trading alerts directly to your phone using webhooks.
 
-<img style="display: block; margin: auto;" src="/assets/logo_banner.png" width="70%"/>
+Most users connect BarAudio to **TradingView alerts**, which takes less than a minute to set up.
 
-&nbsp;
+BarAudio also works with any platform capable of sending webhooks, including TrendSpider, MT5, or custom trading systems.
 
-<p style="text-align: center;">
-<a href="https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio">BarAudio</a> provides audible realtime notifications on worldwide financial products. Price, volume, and custom indicators are updated once per minute via short, audible alerts which can be configured for language, voice, speed, and pitch.
-</p>
+---
 
-&nbsp;
+## 1. Copy your webhook URL
 
-<a href="https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio">
-    <img style="display: block; margin: auto;" src="/assets/play_store_button.png" width="192px"/>
-</a>
+<img src="/assets/background_blur.webp" style="display:block;margin:auto;width:520px;height:340px;object-fit:cover;border-radius:6px;"/>
 
-&nbsp;
+Open **BarAudio → Settings** and copy your personal webhook URL.
 
-<p style="text-align: center;">
-    BarAudio works with any webhook service. This video shows how to connect through a price alert in <a href="https://www.tradingview.com/">TradingView</a>.</p>
+Each user receives a unique address used to deliver alerts to your device.
 
-&nbsp;
+---
 
-<p style="text-align: center;">
-    <video width="80%" controls>
-        <source src="assets/setup.mp4" type="video/mp4">
-    </video>
-</p>
+## 2. Create a TradingView alert
 
-&nbsp;
+<img src="/assets/background_blur.webp" style="display:block;margin:auto;width:520px;height:340px;object-fit:cover;border-radius:6px;"/>
 
-<p style="text-align: center;">
-    Use optional placeholders in the alert message,
-</p>
+Create a new alert in TradingView or edit an existing one.
 
-&nbsp;
+Enable **Webhook URL** in the alert dialog.
 
-<img style="display: block; margin: auto;" src="/assets/screenshot.png" width="80%"/>
+<a href="https://www.tradingview.com/chart/" target="_blank">Open TradingView →</a>
 
-&nbsp;
+---
 
-<p style="text-align: center;">
-    or trigger from a script every bar close.
-</p>
+## 3. Paste the webhook URL
 
-&nbsp;
+<img src="/assets/background_blur.webp" style="display:block;margin:auto;width:520px;height:340px;object-fit:cover;border-radius:6px;"/>
 
-<img style="display: block; margin: auto;" src="/assets/snippet.png" width="80%"/>
+Paste your copied webhook URL into the **Webhook URL** field.
 
-&nbsp;
+When the alert triggers, TradingView sends the signal to BarAudio and your phone will immediately speak the message.
 
-<p style="text-align: center;">
-    BarAudio is also compatible with <a href="https://trendspider.com/">TrendSpider</a>, <a href="https://www.metatrader5.com/en">MT5</a>, ...
-</p>
+---
 
-&nbsp;
+## That's it
 
-<img style="display: block; margin: auto;" src="/assets/divider.png" width="90%"/>
+Once the alert fires, BarAudio receives the signal and announces it on your device.
 
-&nbsp;
-
-<img style="display: block; margin: auto;" src="/assets/1r.png" width="90%"/>
-
-&nbsp;
-
-<img style="display: block; margin: auto;" src="/assets/divider.png" width="90%"/>
-
-&nbsp;
-
-<img style="display: block; margin: auto;" src="/assets/2r.png" width="90%"/>
-
-&nbsp;
-
-<img style="display: block; margin: auto;" src="/assets/divider.png" width="90%"/>
-
-&nbsp;
-
-<img style="display: block; margin: auto;" src="/assets/3r.png" width="90%"/>
-
-&nbsp;
-
-<img style="display: block; margin: auto;" src="/assets/divider.png" width="90%"/>
-
-&nbsp;
-
-<img style="display: block; margin: auto;" src="/assets/4r.png" width="90%"/>
+You can now step away from charts while still hearing important market events in real time.
