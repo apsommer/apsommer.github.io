@@ -38,8 +38,9 @@ to a mobile audio interface.
 
 <div style="text-align:center;">
     <div style="display:inline-block;background:white;padding:25px;border-radius:6px;border:1px solid #e6e6e6;">
-        <img src="/assets/architecture.png"
-             style="max-width:520px;width:100%;">
+        <img src="/assets/architecture.svg"
+            alt="BarAudio Architecture"
+            style="max-width:520px;width:100%;height:auto;">
     </div>
 </div>
 
