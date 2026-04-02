@@ -37,10 +37,10 @@ to a mobile audio interface.
 <div style="height:30px;"></div>
 
 <div style="text-align:center;">
-    <div style="display:inline-block;background:white;padding:25px;border-radius:6px;border:1px solid #e6e6e6;">
+    <div style="display:inline-block;background:#434a56;padding:15px;border-radius:6px;border:1px solid #5a6270;">
         <img src="/assets/architecture.svg"
             alt="BarAudio Architecture"
-            style="max-width:520px;width:100%;height:auto;">
+            style="max-width:520px;width:100%;height:auto;display:block;">
     </div>
 </div>
 
