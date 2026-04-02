@@ -51,39 +51,45 @@ header.masthead .page-heading {
     padding: 0;
 }
 
+/* profile and arch image border */
 .mob-img-wrap
 {
-  float: right;
-  margin-left: 2rem;
-  margin-bottom: 1rem;
-  margin-top: 6px; /* match your padding (border thickness) */
-  display: inline-block;
-  background: #d9dde3;
-  padding: 6px;
-  border-radius: 6px;
-  border: 1px solid #b8c0cc;
+  float: right !important;
+  display: inline-block !important;
+  width: auto !important;
+  max-width: fit-content !important;
+  margin: 6px 0 1rem 2rem !important;
+  padding: 4px !important;
+  background: #434a56 !important;
+  border: 1px solid #5a6270 !important;
+  border-radius: 6px !important;
+  line-height: 0 !important;
+  overflow: hidden !important;
 }
 
-.mob-img
+.mob-img-wrap img.mob-img
 {
-  width: 300px;
-  height: auto;
-  display: block;
+  display: block !important;
+  width: 300px !important;
+  max-width: none !important;
+  height: auto !important;
+  margin: 0 !important;
+  float: none !important;
 }
 
 @media (max-width: 768px)
 {
   .mob-img-wrap
   {
-    float: none;
-    display: block;
-    width: fit-content;
-    margin: 0 auto 1.5rem auto;
+    float: none !important;
+    display: table !important;
+    width: auto !important;
+    margin: 0 auto 1.5rem auto !important;
   }
 
-  .mob-img
+  .mob-img-wrap img.mob-img
   {
-    width: 220px;
-    max-width: 100%;
+    width: 220px !important;
+    max-width: 100% !important;
   }
 }
