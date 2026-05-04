@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BarAudio
+title: SignalVoice
 background: '/assets/background.webp'
 ---
 
@@ -11,14 +11,14 @@ background: '/assets/background.webp'
 <div style="height:30px;"></div>
 
 <p style="text-align:center;max-width:760px;margin:auto;">
-BarAudio is a voice-first Android application that delivers real-time trading signals as short spoken alerts.
+SignalVoice is a voice-first Android application that delivers real-time trading signals as short spoken alerts.
 Instead of monitoring charts continuously, traders can hear market events as they occur.
 </p>
 
 <div style="height:30px;"></div>
 
 <p style="text-align:center;">
-<a href="https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio">
+<a href="https://play.google.com/store/apps/details?id=com.sommerengineering.signalvoice">
 <img src="/assets/play_store_button.png" width="192px"/>
 </a>
 </p>
@@ -30,7 +30,7 @@ Instead of monitoring charts continuously, traders can hear market events as the
 <h2 style="text-align:center;">Signal Delivery Architecture</h2>
 
 <p style="text-align:center;max-width:760px;margin:auto;">
-BarAudio operates as a real-time signal pipeline connecting trading platforms
+SignalVoice operates as a real-time signal pipeline connecting trading platforms
 to a mobile audio interface.
 </p>
 
@@ -39,7 +39,7 @@ to a mobile audio interface.
 <div style="text-align:center;">
     <div style="display:inline-block;background:#434a56;padding:15px;border-radius:6px;border:1px solid #5a6270;">
         <img src="/assets/architecture.svg"
-            alt="BarAudio Architecture"
+            alt="SignalVoice Architecture"
             style="max-width:520px;width:100%;height:auto;display:block;">
     </div>
 </div>
