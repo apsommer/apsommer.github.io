@@ -1,15 +1,20 @@
 ---
+layout: page_no_header
+title: SignalVoice
+background: '/assets/background.webp'
+---
 
-layout: default
-title: Account & Data Deletion
-permalink: /delete-account/
----------------------------
+&nbsp;
 
-# Account & Data Deletion
+&nbsp;
+
+Account & Data Deletion
+==============
+
 
 ## SignalVoice
 
-SignalVoice allows optional account login using federated providers (e.g., Google). If you would like to delete your account and any associated data, you can request deletion using the instructions below.
+SignalVoice allows optional account login using federated providers. If you would like to delete your account and any associated data, you can request deletion using the instructions below.
 
 ---
 
