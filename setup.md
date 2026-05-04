@@ -6,11 +6,11 @@ background: '/assets/background.webp'
 
 <div style="height:40px;"></div>
 
-BarAudio delivers trading alerts directly to your phone using webhooks.
+SignalVoice delivers trading alerts directly to your phone using webhooks.
 
-Most users connect BarAudio to **TradingView alerts**, which takes less than a minute to set up.
+Most users connect SignalVoice to **TradingView alerts**, which takes less than a minute to set up.
 
-BarAudio also works with any platform capable of sending webhooks, including TrendSpider, MT5, or custom trading systems.
+SignalVoice also works with any platform capable of sending webhooks, including TrendSpider, MT5, or custom trading systems.
 
 ---
 
@@ -18,7 +18,7 @@ BarAudio also works with any platform capable of sending webhooks, including Tre
 
 <img src="/assets/background_blur.webp" style="display:block;margin:auto;width:520px;height:340px;object-fit:cover;border-radius:6px;"/>
 
-Open **BarAudio → Settings** and copy your personal webhook URL.
+Open **SignalVoice → Settings** and copy your personal webhook URL.
 
 Each user receives a unique address used to deliver alerts to your device.
 
@@ -42,12 +42,12 @@ Enable **Webhook URL** in the alert dialog.
 
 Paste your copied webhook URL into the **Webhook URL** field.
 
-When the alert triggers, TradingView sends the signal to BarAudio and your phone will immediately speak the message.
+When the alert triggers, TradingView sends the signal to SignalVoice and your phone will immediately speak the message.
 
 ---
 
 ## That's it
 
-Once the alert fires, BarAudio receives the signal and announces it on your device.
+Once the alert fires, SignalVoice receives the signal and announces it on your device.
 
 You can now step away from charts while still hearing important market events in real time.
