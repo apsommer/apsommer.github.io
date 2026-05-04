@@ -1,6 +1,6 @@
 ---
 layout: page_no_header
-title: SIGNALVOICE
+title: SignalVoice
 background: '/assets/background.webp'
 ---
 
