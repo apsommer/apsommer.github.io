@@ -24,8 +24,8 @@ Signals are generated externally and delivered through a low-latency webhook pip
 </p>
 
 <p>
-<a href="/baraudio">Engineering Case Study →</a><br>
-<a href="https://play.google.com/store/apps/details?id=com.sommerengineering.baraudio">Play Store →</a>
+<a href="/signalvoice">Engineering Case Study →</a><br>
+<a href="https://play.google.com/store/apps/details?id=com.sommerengineering.signalvoice">Play Store →</a>
 </p>
 
 </td>
