@@ -10,7 +10,7 @@ background: '/assets/background.webp'
 
 <tr>
 <td style="width:260px; vertical-align:middle; padding-right:28px;">
-<img src="/assets/ba_logo_white.png" style="width:220px;">
+<img src="/assets/app_icon.png" style="width:220px;">
 </td>
 
 <td style="vertical-align:top; border-left:1px solid rgba(255,255,255,0.10); padding-left:28px;">
