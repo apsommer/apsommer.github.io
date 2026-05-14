@@ -9,9 +9,11 @@ background: '/assets/background.webp'
 &nbsp;
 
 Account & Data Deletion
-==============
+=======================
 
-SignalVoice provides optional account login using federated authentication providers. This page is used to inform users about how to request deletion of their account and any associated personal data. If you choose to use login features within the Service, you may request deletion of your account at any time by following the instructions below.
+SignalVoice provides optional account login using federated authentication providers. This page is used to inform users about how to request deletion of their account and any associated personal data.
+
+If you choose to use login features within the Service, you may request deletion of your account at any time by following the instructions below.
 
 **Account Deletion Request**
 
@@ -53,8 +55,12 @@ If you have not created an account or used login features:
 
 **Third-Party Services**
 
-SignalVoice may use third-party services such as authentication providers or analytics tools. Data managed by these services may be subject to their respective privacy policies. We recommend reviewing those policies for additional information.
+SignalVoice may use third-party services such as authentication providers or analytics tools. Data managed by these services may be subject to their respective privacy policies.
+
+We recommend reviewing those policies for additional information.
 
 **Contact Us**
 
-If you have any questions regarding account or data deletion, you may contact us at [support@signalvoice.com](mailto:support@signalvoice.com).
+If you have any questions regarding account or data deletion, you may contact us at:
+
+[support@signalvoice.com](mailto:support@signalvoice.com)
