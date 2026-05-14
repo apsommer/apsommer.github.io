@@ -1,18 +1,17 @@
 ---
-layout: page
+layout: page_no_header
 title: SignalVoice
 background: '/assets/background.webp'
 ---
 
-<div style="height:40px;"></div>
+<div style="height:90px;"></div>
 
-<img style="display:block;margin:auto;" src="/assets/logo_banner.png" width="70%"/>
+<img style="display:block;margin:auto;" src="/assets/appbar.png" width="70%"/>
 
 <div style="height:30px;"></div>
 
 <p style="text-align:center;max-width:760px;margin:auto;">
-SignalVoice is a voice-first Android application that delivers real-time trading signals as short spoken alerts.
-Instead of monitoring charts continuously, traders can hear market events as they occur.
+SignalVoice is a voice-first Android application that delivers real-time trading signals as short spoken alerts. Instead of monitoring charts continuously, traders can hear market events as they occur.
 </p>
 
 <div style="height:30px;"></div>
@@ -23,15 +22,12 @@ Instead of monitoring charts continuously, traders can hear market events as the
 </a>
 </p>
 
-<div style="height:20px;"></div>
-
-<hr style="max-width:800px;margin:50px auto;">
+<hr style="max-width:800px;margin:40px auto;">
 
 <h2 style="text-align:center;">Signal Delivery Architecture</h2>
 
 <p style="text-align:center;max-width:760px;margin:auto;">
-SignalVoice operates as a real-time signal pipeline connecting trading platforms
-to a mobile audio interface.
+SignalVoice operates as a real-time signal pipeline connecting trading platforms to a mobile audio interface.
 </p>
 
 <div style="height:30px;"></div>
@@ -55,8 +51,7 @@ Signals originate from trading platforms such as TradingView and are delivered t
 ## Signal Generation
 
 <p style="max-width:760px;margin:auto;">
-Trading strategies generate signals on each bar close using PineScript or other indicator engines.
-These systems trigger webhooks containing a short message describing the signal.
+Trading strategies generate signals on each bar close using PineScript or other indicator engines. These systems trigger webhooks containing a short message describing the signal.
 </p>
 
 <div style="height:40px;"></div>
@@ -64,8 +59,7 @@ These systems trigger webhooks containing a short message describing the signal.
 ## Webhook Processing
 
 <p style="max-width:760px;margin:auto;">
-Incoming webhook requests are received by a lightweight Python service and validated before being written to Firebase Realtime Database.
-The backend acts as a distribution layer between signal generators and mobile clients.
+Incoming webhook requests are received by a lightweight Python service and validated before being written to Firebase Realtime Database. The backend acts as a distribution layer between signal generators and mobile clients.
 </p>
 
 <div style="height:40px;"></div>
@@ -73,12 +67,7 @@ The backend acts as a distribution layer between signal generators and mobile cl
 ## Android Client
 
 <p style="max-width:760px;margin:auto;">
-The Android application is written in Kotlin using Jetpack Compose and a coroutine-based architecture.
-Signals are persisted locally using Room to ensure reliable ordering and recovery after offline periods.
-</p>
-
-<p style="max-width:760px;margin:auto;">
-Firebase Cloud Messaging delivers new events to the device, where they are inserted into the local database and processed by the application.
+The Android application is written in Kotlin using Jetpack Compose and a coroutine-based architecture. Signals are persisted locally using Room to ensure reliable ordering and recovery after offline periods. Firebase Cloud Messaging delivers new events to the device, where they are inserted into the local database and processed by the application.
 </p>
 
 <div style="height:40px;"></div>
@@ -86,17 +75,5 @@ Firebase Cloud Messaging delivers new events to the device, where they are inser
 ## Voice Delivery
 
 <p style="max-width:760px;margin:auto;">
-When a new signal arrives, a foreground service activates the Android Text-to-Speech engine to generate a short spoken alert describing the event.
+When a new signal arrives, a foreground service activates the Android Text-to-Speech engine to generate a short spoken alert describing the event. This voice-first design allows traders to monitor market activity without constantly watching charts.
 </p>
-
-<p style="max-width:760px;margin:auto;">
-This voice-first design allows traders to monitor market activity without constantly watching charts.
-</p>
-
-<div style="height:40px;"></div>
-
-<p style="text-align:center;">
-Webhook setup instructions are available in the <a href="/setup">Setup Guide</a>.
-</p>
-
-<div style="height:60px;"></div>
